@@ -83,3 +83,46 @@
    color:blue;
    text-decoration:underline;
 }
+
+.social-media-links-container{
+         position:fixed;
+         top:30%;
+         left:0;
+         z-index:5000000000000000000;
+         width:50px;
+         height:auto;
+      }
+
+      .social-media-links-container a{
+         display:block;
+         font-size: 30px;
+         width:50px;
+         height:50px;
+         padding-top:10px;
+         text-align: center;
+         text-decoration: none;
+      }
+
+      .social-media-links-container .fa:hover {
+         opacity: 0.7;
+      }
+
+      .social-media-links-container .fa-facebook {
+         background: #3B5998;
+         color: white;
+      }
+
+      .social-media-links-container .fa-youtube {
+         background: #bb0000;
+         color: white;
+      }
+
+      .social-media-links-container .fa-google{
+         background-color:#ff5700;
+         color:white;
+      }
+
+      .social-media-links-container .fa-instagram{
+         background-color:#e95950;
+         color:white;
+      }
